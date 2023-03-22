@@ -1,5 +1,7 @@
 import os
 import math
+
+# Método que limpia la consola cada vez que se ejecuta el programa
 os.system('cls')
 
 # Recopilando los valores de la resistencia en dc
