@@ -25,4 +25,3 @@ resistorAC = resistorDC*(1+c**2/12 -c**4/180)
 
 # Mostrando el resultado 
 print(f"El valor de la resistencia en AC es {round(resistorAC,6)} Ω/km")
-
