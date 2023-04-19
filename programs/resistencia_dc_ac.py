@@ -5,7 +5,7 @@ import math
 os.system('cls')
 
 # Recopilando los valores de la resistencia en dc
-resistorDC = float(input('Ingrese el valor de la Resistencia en corriente continua (DC): '))
+resistorDC = float(input('Ingrese el valor de la Resistencia en corriente continua (DC) en Ω/km: '))
 
 
 # Recopilando el valor de la frecuencia
