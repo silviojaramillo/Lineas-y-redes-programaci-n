@@ -14,6 +14,11 @@ temperature2 = float(input('Ingrese el valor de la temperatura de operación: ')
 # Recopilando la temperatura característica del material conductor
 temperature_k = float(input('Ingrese el valor de la temperatura característica del conductor: '))
 
+#############################################################################################
+#                                     Área de cálculos                                      #
+#############################################################################################
+
+# Calculando el valor de la resistencia referida a la temperatura indicada
 temperature_end = resistor1*((temperature_k + temperature2)/(temperature_k + temperature1))
 
 # Mostrando el valor de la temperatura final
