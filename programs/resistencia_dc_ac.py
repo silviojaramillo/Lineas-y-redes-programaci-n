@@ -34,5 +34,5 @@ resistor_total = resistorAC*distance
 # Calculando la resistencia por fase
 rFase = resistor_total/conductors
 
-# Mostrando el resultado 
+# Mostrando el resultado
 print(f"El valor de la resistencia en AC por fase es de {round(rFase,6)} Ω/km")
