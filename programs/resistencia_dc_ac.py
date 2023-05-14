@@ -35,4 +35,4 @@ resistor_total = resistorAC*distance
 rFase = resistor_total/conductors
 
 # Mostrando el resultado
-print(f"El valor de la resistencia en AC por fase es de {round(rFase,6)} Ω/km")
+print(f"El valor de la resistencia en AC por fase es de {round(rFase,6)} Ω")
